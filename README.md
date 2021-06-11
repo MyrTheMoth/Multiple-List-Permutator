@@ -31,25 +31,25 @@ Feel free to add your own flavors and ingredients, or replace them with whatever
 
 1. It Permutates all Flavor Profile Choices
 
-If you have Flavors [A, B, C] it will permutate every combination based on the list of Choices in your settings file, such as [1, 1, 1], [1, 1, 0], [1, 0, 1], [0, 1, 1], etc.
+    - If you have Flavors [A, B, C] it will permutate every combination based on the list of Choices in your settings file, such as [1, 1, 1], [1, 1, 0], [1, 0, 1], [0, 1, 1], etc.
 
 2. It clears duplicate permutations, as we only care for a single copy of each ordered flavor profile set.
 
 3. It enables any mandatory flavor from any permutation where it may be disabled.
 
-If given Flavors [A, B, C] and A is mandatory, any permutation where A is 0, it will be made 1.
+    - If given Flavors [A, B, C] and A is mandatory, any permutation where A is 0, it will be made 1.
 
 4. It clears duplicates created from enabling all mandatory flavors on each permutation.
 
 5. It permutates every possible ingredient combination for all flavors once.
 
-Given Flavors [A, B, C] it will permutate every ingredient combination available under each flavor.
+    - Given Flavors [A, B, C] it will permutate every ingredient combination available under each flavor.
 
 6. It creates a filtered set of the single all flavors permutation set, removing ingredients from Flavors disabled from each Flavor Profile choices.
 
-Given Flavors [A, B, C], each permutation will have ingredients [X, Y, Z], and given the all flavor permutations, each of those will have an ingredient, for each flavor profile choice, those will be filtered to remove ingredients that the currently iterating choice have disabled.
+    - Given Flavors [A, B, C], each permutation will have ingredients [X, Y, Z], and given the all flavor permutations, each of those will have an ingredient, for each flavor profile choice, those will be filtered to remove ingredients that the currently iterating choice have disabled.
 
-As such, if the current iteration only has ingredients [A, B], the ingredient list [X, Y, Z] will be made [X, Y, None]
+    - As such, if the current iteration only has ingredients [A, B], the ingredient list [X, Y, Z] will be made [X, Y, None]
 
 7. Print every permutation set to list.csv
 
