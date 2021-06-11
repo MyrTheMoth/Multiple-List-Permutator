@@ -61,6 +61,6 @@ Feel free to add your own flavors and ingredients, or replace them with whatever
 
 I was watching a certain video about making Pesto Sauce and the content creator added a pretty fun looking table at the end explaining different Mediterranean herb sauces are just combinations of the same flavor profiles or lack thereof, so I thought it'd be fun to make a way to iterate a bunch of permutations to try all kinds of sauces.
 
-Video: (https://www.youtube.com/watch?v=qnZZ63D4T2Q)
+Video: https://www.youtube.com/watch?v=qnZZ63D4T2Q
 
 
