@@ -1,5 +1,5 @@
 # Herb Sauce Permutator
-A script that permutates all possible combinations of a set ofingredients, given a bunch of flavor profiles and ingredients corresponding to each flavor to choose from.
+A script that permutates all possible combinations of a set of ingredients, given a bunch of flavor profiles and ingredients corresponding to each flavor to choose from.
 
 It also makes sure that mandatory flavors are always chosen, and permutates profiles of flavors to skip.
 
