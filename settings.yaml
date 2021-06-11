@@ -1,0 +1,44 @@
+Flavors:
+  Herb:
+    - Basil
+    - Parsley
+    - Cilantro
+    - Mint
+    - Kale (Cooked)
+  Aromatics:
+    - Lemon Zest
+    - Garlic
+    - Lime Zest
+    - Shallots
+  Acidity:
+    - Lemon Juice
+    - Lime Juice
+    - White Wine Vinegar
+    - Malt Vinegar
+    - Balsamic Vinegar
+  Thickener:
+    - Pine Nuts
+    - Walnuts
+    - Pistachios
+    - Almonds
+    - Cashews
+    - Macadamia
+    - Sesame Seeds
+    - Bread Crumps
+  Umami:
+    - Parmesan
+    - Pecorino
+    - Feta
+    - Capers
+    - Anchovies
+  Fat:
+    - Olive Oil
+    - Butter
+Profiles:
+  Mandatory:
+    - Herb
+    - Fat
+  Choices:
+    - 6
+    - 5
+    - 4
