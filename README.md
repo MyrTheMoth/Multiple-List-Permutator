@@ -1,13 +1,13 @@
-# Herb Sauce Permutator
-A script that permutates all possible combinations of a set of ingredients, given a bunch of flavor profiles and ingredients corresponding to each flavor to choose from.
+# Multiple List Permutator
+A script that permutates all possible combinations of a set of items in several lists.
 
-It also makes sure that mandatory flavors are always chosen, and permutates profiles of flavors to skip.
+It also makes sure that mandatory lists are always chosen, and permutates combinations of lists to skip.
 
 ---------
 
 ## Usage
 
-Just run `permutator.py` with `settings.yaml` in the same folder and it will print a `list.csv` file with all possible permutations (shuffled, so you don't get tired of trying the same sauce bases in a streak).
+Just run `permutator.py` with `settings.yaml` in the same folder and it will print a `list.csv` file with all possible permutations (shuffled by default).
 
 ---------
 
@@ -53,7 +53,7 @@ Feel free to add your own flavors and ingredients, or replace them with whatever
 
 7. Print every permutation set to list.csv
 
-8. Enjoy more combinations of possible sauces than there are average available days in a human's life span!
+8. Enjoy more combinations of possible pesto sauces than there are average available days in a human's life span!
 
 ---------
 
